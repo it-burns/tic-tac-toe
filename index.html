@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/main.css">
+    <script src="https://kit.fontawesome.com/80b7e46067.js" crossorigin="anonymous"></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="main-container">
+        <h1 id="playerTurn">Player Turn</h1>
+
+        <div id="boardContainer" class="board-container">
+            <div class="box" id="0"></div>
+            <div class="box" id="1"></div>
+            <div class="box" id="2"></div>
+            <div class="box" id="3"></div>
+            <div class="box" id="4"></div>
+            <div class="box" id="5"></div>
+            <div class="box" id="6"></div>
+            <div class="box" id="7"></div>
+            <div class="box" id="8"></div>
+        </div>
+
+        <div class="buttons">
+            <button class="button-sizing" id="previousBtn"><< Previous</button>
+            <button class="button-sizing" id="restartBtn">Restart</button>
+            <button class="button-sizing" id="nextBtn">Next >></button>
+        </div>
+    </div>
+
+    <div class="start-game" id="startGame">
+        <h1>Tic Tac Toe</h1>
+        <button class="button-sizing" id="startGameBtn">Start Game</button>
+    </div>
+
+    <div class="game-message" id="gameMessage">
+        <hi id="message" class="message"></hi>
+        <div class="game-over-btns" id="gameOverBtns">
+            <button id="history" class="button-sizing">History</button>
+            <button id="playAgain" class="button-sizing">Play Again</button>
+        </div>
+    </div>
+
+    <!-- <div class="overlay"></div> -->
+
+    <script src="/main.js"></script>
+    <script src="/start_game.js"></script>
+    <script src="/play_again.js"></script>
+    <script src="/history.js"></script>
+</body>
+</html>
