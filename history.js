@@ -15,6 +15,8 @@ historyBtn.addEventListener('click', () => {
 
     previousBtn.disabled = false
     previousBtn.style.cursor = 'pointer'
+
+    placeMark()
 })
 
 previousBtn.addEventListener('click', previousMove)
