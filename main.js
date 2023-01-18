@@ -112,6 +112,9 @@ function restart() {
         box.innerText = ''
     })
 
+    previousBtn.style.display = 'none'
+    nextBtn.style.display = 'none'
+
     currentPlayer = x_player
     playerTurn.innerText = `${currentPlayer}'s Turn`
 

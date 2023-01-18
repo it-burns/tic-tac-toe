@@ -12,6 +12,9 @@ historyBtn.addEventListener('click', () => {
     
     nextBtn.disabled = true
     nextBtn.style.cursor = 'default'
+
+    previousBtn.disabled = false
+    previousBtn.style.cursor = 'pointer'
 })
 
 previousBtn.addEventListener('click', previousMove)
