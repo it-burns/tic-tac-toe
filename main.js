@@ -66,6 +66,7 @@ function registerMove(e) {
             playerTurn.innerText = 'Game Over!'
             whoWins.innerText = 'Draw!'
             gameOverMessage.style.display = 'flex'
+            gameIsOver = true
             placeMark()
             return
         }
